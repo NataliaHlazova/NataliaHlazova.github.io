@@ -1,0 +1,16 @@
+
+@mixin font-text ($s, $c, $f, $d) {
+    font-size: $s;
+    color: $c;
+    font-family: $f;
+    text-decoration: $d;
+    
+}
+
+@mixin anim ($n, $d, $ic, $fm, $dr){
+    animation-name: $n;
+    animation-duration: $d;
+    animation-iteration-count: $ic;
+    animation-fill-mode: $fm;  
+    animation-direction: $dr;  
+}
